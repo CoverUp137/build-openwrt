@@ -150,8 +150,8 @@ jobs:
     - name: 发布固件
       uses: ncipollo/release-action@v1
       with:
-#       tag: openwrt_JD-AX1800_${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
-        tag: OpenWrt-JDC-AX1800${{ env.FILE_DATE }}
+#       tag: openwrt_Redmi_Ax6S_${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
+        tag: OpenWrt-Redmi_ax6S${{ env.FILE_DATE }}
         artifacts: openwrt/bin/targets/*/*/*
         allowUpdates: true
         token: ${{ secrets.GITHUB_TOKEN }}
