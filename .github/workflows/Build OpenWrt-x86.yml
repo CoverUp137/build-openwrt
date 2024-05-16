@@ -13,7 +13,7 @@ on:
 env:
 # REPO_URL: https://github.com/JiaY-shi/openwrt.git
   REPO_URL: https://github.com/coolsnowwolf/lede.git
-  REPO_BRANCH: mmaster
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config-x86
   DIY_P1_SH: diy-part1.sh
