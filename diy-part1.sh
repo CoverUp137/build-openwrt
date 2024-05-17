@@ -22,7 +22,8 @@
 #sed -i '2i src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 
-git clone https://github.com/kenzok8/openwrt-packages package/kenzo
-git clone https://github.com/kenzok8/small package/small
+#git clone https://github.com/kenzok8/openwrt-packages package/kenzo
+#git clone https://github.com/kenzok8/small package/small
 
 #git clone https://github.com/kiddin9/openwrt-packages package/kiddin9
+git clone https://github.com/coverUP2/openwrt-packages.git package/coverUP2
