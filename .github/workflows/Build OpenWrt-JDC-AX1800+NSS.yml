@@ -15,7 +15,7 @@ env:
 #  REPO_URL: https://github.com/china-temps/openwrt.git
   REPO_BRANCH: ipq60xx-devel_nss
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config
+  CONFIG_FILE: .config-ax1800
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   TZ: Asia/Shanghai
