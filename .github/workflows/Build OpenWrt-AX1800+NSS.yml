@@ -156,7 +156,7 @@ jobs:
         allowUpdates: true
         token: ${{ secrets.GITHUB_TOKEN }}
         body: |
-          京东云–亚瑟–JDC-AX1800+NSS 固件
+          京东云–亚瑟–AX1800+NSS 固件
           
     - name: 清理Actions空间
       uses: Mattraks/delete-workflow-runs@main
